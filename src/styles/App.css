@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+}
+
+.NavBarWrapped{
+  background-color: rgb(35, 109, 194);
+  display: flex;
+  height: 15vmin;
+  gap: 20px;
+  justify-content: left;
+  align-items: center;
+}
+
+.NavBarText{
+  color:rgb(255, 255, 255);
+  font-size: 5vmin;
+  text-align: center;
+}
+
+.NavBarLogo{
+  
+}
+
+.LogReg{
+  display: flex;
+  gap: 20px;
+  font-size: 3vmin;
+  margin-left: 900px;
+  align-items: top;
+}
+
+.Main{
+  background-color: rgb(48, 108, 160);
+  height: 85vmin;
+}
+
+.Vote{
+  display: flex;
+  height: 5%;
+  color: white;
+  justify-content: center;
+}
+
+.NamesWrapped{
+  display: flex;
+  height: 1px;
+  position:relative;
+  top: 10%;
+  
+}
+
+
+.FiveLolName{
+  display:flex;
+  position:relative;
+  left: 22.4%;
+  cursor: pointer;
+}
+
+.FogsName{
+  display:flex;
+  position:relative;
+  left: 67.5%;
+  cursor: pointer;
+}
+
+
+.PicturesWrapped{
+  margin-top: 2%;
+  justify-content: center;
+  gap: 500px;
+  display: flex;
+  height: 1%;
+}
+
+.FiveLolPic{
+  display:flex;
+  margin-top: 100px;
+}
+
+.FogsPic{
+  display:flex;
+  margin-top: 100px;
+}
+
+.TextsWrapped{
+  display: flex;
+  height: 1px;
+  position:relative;
+  top: 10%;
+  color: white;
+  opacity: 0.8;
+  
+}
+
+.FiveLolText{
+  display:flex;
+  position:relative;
+  margin-top: 19.5%;
+  left: 19.5%;
+}
+
+.FogsText{
+  display:flex;
+  position:relative;
+  margin-top: 19.5%;
+  left: 61%;
+}
+
+
